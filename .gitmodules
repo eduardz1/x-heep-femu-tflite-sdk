@@ -1,6 +1,0 @@
-[submodule "tflite-micro-x-heep"]
-	path = sw/riscv/lib/tflite-micro
-	url = https://github.com/and00h/tflite-micro-x-heep-examples/
-[submodule "libscpi"]
-	path = sw/riscv/apps/tflite_scpi/scpi-parser
-	url = https://github.com/j123b567/scpi-parser/
