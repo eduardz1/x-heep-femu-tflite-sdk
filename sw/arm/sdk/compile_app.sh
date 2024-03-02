@@ -11,7 +11,7 @@ pkill screen
 sudo pkill screen
 
 # Compile application
-cd /home/xilinx/x-heep-femu-sdk/sw/riscv/
+cd /home/xilinx/x-heep-femu-tflite-sdk/sw/riscv/
 make clean apps/$1/$1.bin
 make apps/$1/$1.dis
 mkdir build

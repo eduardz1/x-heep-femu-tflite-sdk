@@ -41,7 +41,7 @@ INC_FOLDERS_GCC    = $(addprefix -I ,$(INC_FOLDERS))
 	$(RISCV_EXE_PREFIX)objdump -S $< > $@
 
 libtflm.a:
-	$(MAKE) -C lib/tflite-micro RISCV=$(RISCV) X_HEEP_LIB_FOLDER=./lib
+	$(MAKE) -C lib/tflite-micro RISCV=$(RISCV) X_HEEP_LIB_FOLDER=/home/xilinx/x-heep-femu-tflite-sdk/sw/riscv/lib
 
 apps/hello_world/hello_world.elf: apps/hello_world/hello_world.c
 	$(RISCV_EXE_PREFIX)gcc -march=rv32imc -o $@ -w -Os -g -nostdlib \
