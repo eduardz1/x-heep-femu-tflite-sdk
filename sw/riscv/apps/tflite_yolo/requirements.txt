@@ -1,0 +1,15 @@
+ultralytics
+tensorflow==2.13.1
+ipykernel<6.21.0
+onnx
+onnx2tf>=1.15.4,<=1.17.5 # ValueError: A KerasTensor cannot be used as input to a TensorFlow function. A KerasTensor is a symbolic placeholder for a shape and dtype, used when constructing Keras Functional models or Keras Functions. You can only use it as input to a Keras layer or a Keras operation (from the namespaces `keras.layers` and `keras.operations`).
+onnx_graphsurgeon
+sng4onnx
+onnxsim
+tflite_support
+onnxruntime-gpu
+typing-extensions<4.6.0,>=3.8.8
+ipython<8.10.0
+onnx2keras
+keras_cv
+tqdm
