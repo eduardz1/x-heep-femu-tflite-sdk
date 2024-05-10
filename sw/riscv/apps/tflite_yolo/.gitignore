@@ -1,4 +1,4 @@
 *.pt
 *.tf
 *.onnx
-*_saved_model
+*saved_model
