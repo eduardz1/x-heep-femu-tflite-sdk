@@ -1,3 +1,6 @@
 [submodule "sw/riscv/lib/tflite-micro"]
 	path = sw/riscv/lib/tflite-micro
 	url = https://github.com/cad-polito-it/tflite-micro-x-heep
+[submodule "sw/riscv/apps/tflite_fastest_det/fastest_det"]
+	path = sw/riscv/apps/tflite_fastest_det/fastest_det
+	url = https://github.com/eduardz1/FastestDet

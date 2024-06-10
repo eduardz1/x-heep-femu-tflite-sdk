@@ -2,14 +2,15 @@
 #define LENET_5_TEST_H
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
-#include <stdint.h>
 #include <stddef.h>
+#include <stdint.h>
 
-int init_tflite();
-int infer(const char *data, size_t len, int8_t **out, size_t *out_len);
+    int init_tflite();
+    int infer(const char *data, size_t len, int8_t **out, size_t *out_len);
 
 #ifdef __cplusplus
 }
